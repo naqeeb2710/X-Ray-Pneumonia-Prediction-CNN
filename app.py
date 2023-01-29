@@ -18,9 +18,9 @@ def predict_label(img_path):
 	p = model.predict(i)
 	p=p.reshape(1)
 	if p>=0.51:
-		return 'YES'
+		return 'You have Pneumonia and Need to consult a doctor'
 	else:
-		return 'NO'
+		return 'You are completely Healthy'
 
 
 # routes
@@ -61,4 +61,4 @@ def remove_file(img_path):
 
 if __name__ =='__main__':
 	#app.debug = True
-	app.run(debug = True)
+	app.run(debug=True)
