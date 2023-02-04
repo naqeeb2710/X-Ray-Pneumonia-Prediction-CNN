@@ -5,10 +5,11 @@ This project uses a convolutional neural network (CNN) to classify chest X-rays 
 1. Clone the repository: <br/>
 git clone https://github.com/naqeeb2710/X-Ray-Pneumonia-Prediction-CNN.git
 2. cd X-Ray-Pneumonia-Prediction-CNN
-3. pip install -r requirements.txt
+3. ``pip install -r requirements.txt``
 4. Run the python app.py script to run the local flask server
 
 # Requirements
+````
 Python version 3.7 <br/>
 Tensorflow 2.x <br/>
 Keras <br/>
@@ -16,6 +17,7 @@ Matplotlib <br/>
 Numpy <br/>
 Sklearn <br/>
 OpenCV <br/>
+````
 
 # Data Preprocessing
 The dataset contains two classes, Normal and Pneumonia. <br/>
