@@ -2,20 +2,32 @@
 This project uses a convolutional neural network (CNN) to classify chest X-rays as either normal or showing signs of pneumonia. The model is trained on the [Chest X-Ray Images (Pneumonia) dataset from Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia). The goal of this project is to develop a model that can accurately identify pneumonia in chest X-rays, which can help doctors and radiologists quickly and accurately diagnose patients.
 
 # Getting Started
-1. Clone the repository: <br/>
+Clone the repository
+``` 
 git clone https://github.com/naqeeb2710/X-Ray-Pneumonia-Prediction-CNN.git
-2. cd X-Ray-Pneumonia-Prediction-CNN
-3. pip install -r requirements.txt
-4. Run the python app.py script to run the local flask server
-
-# Requirements
-Python version 3.7 <br/>
-Tensorflow 2.x <br/>
-Keras <br/>
-Matplotlib <br/>
-Numpy <br/>
-Sklearn <br/>
-OpenCV <br/>
+```  
+Change the Directory
+``` 
+cd X-Ray-Pneumonia-Prediction-CNN
+```
+Install requirements
+```
+pip install -r requirements.txt
+```
+Run the python script to run the local flask server
+```
+python app.py
+```
+## Requirements
+```
+Python version 3.7
+Tensorflow 2.x 
+Keras 
+Matplotlib 
+Numpy 
+Sklearn 
+OpenCV 
+```
 
 # Data Preprocessing
 The dataset contains two classes, Normal and Pneumonia. <br/>
